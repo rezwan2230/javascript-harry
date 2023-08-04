@@ -57,6 +57,39 @@
 
 
 // problem-1
-let str2 = "Please give me 1000"
-let num = parseInt(str2.slice("Please give me ".length))
-console.log(num)
+// let str2 = "Please give me 1000"
+// let num = parseInt(str2.slice("Please give me ".length))
+// console.log(num)
+
+
+
+// problem -2
+// const str1 = "RezWan"
+// const str2 = "REzwaN"
+// if (str1.toLowerCase() === str2.toLowerCase()) {
+//     console.log("Valid")
+// }
+// else {
+//     console.log("Invalid")
+// }
+
+
+// problem -3
+// const sentence = "amr sonar bangla, ami tomay valobashi"
+// const word = "Bangla"
+// console.log(sentence.toLowerCase().includes(word.toLowerCase()))
+
+// problem -4
+// const a = "chirodin tmr akash tmr batash"
+// console.log(a.indexOf("tmr"))
+// console.log(a.indexOf("tomake"))
+
+
+// problem -5
+// const str = "amr sonar bangla, ami tomay valobashi. chirodin tmr akash tmr batash amr prane"
+// const word =  str.split(" ")
+// const sentence =  str.split(".")
+// const char =  str.split("")
+// console.log(word)
+// console.log(sentence)
+// console.log(char)

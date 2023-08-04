@@ -44,10 +44,27 @@
 
 
 //Reduce method()
-let a = [1,2,3,5,2,1]
-let b = a.reduce((n1,n2)=>{
-    return n1+n2
-    // return n1+n2+2
+// let a = [1,2,3,5,2,1]
+// let b = a.reduce((n1,n2)=>{
+//     return n1+n2
+//     // return n1+n2+2
+// })
+// console.log(b)
+
+
+// let arr = []
+// let num;
+// do {
+//     num = prompt("Enter a number : ")
+//     num = Number.parseInt(num)
+//     arr.push(num)
+//     console.log(arr)
+// } while (num != 0)
+
+
+
+let a = [1, 2, 3, 4, 5, 6]
+let b = a.reduce((x1, x2) => {
+    return x1*x2
 })
 console.log(b)
-
