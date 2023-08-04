@@ -104,8 +104,8 @@
 
 
 //For in loop
-let number = [3,6,9,12,15,20]
-for(let i in number){
-    console.log(number[i])
-}
+// let number = [3,6,9,12,15,20]
+// for(let i in number){
+//     console.log(number[i])
+// }
 

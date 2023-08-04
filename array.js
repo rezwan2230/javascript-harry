@@ -100,3 +100,19 @@
 
 // n.push("Watermilon")
 // console.log(n)
+
+
+
+// Problem No-19
+// function check(arr){
+//     let c = [];
+//     for(let i of arr){
+//         if (i%2==0){
+//             c.push(i)
+//         }
+//     }
+//     return c
+// }
+// let a = [10,20,113,24,47,125,685,15476,23512]
+// let even = check(a)
+// console.log(even)
