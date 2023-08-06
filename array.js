@@ -24,6 +24,9 @@
 // console.log(i)
 
 
+// let arr = [10,20,30,40]
+// console.log(Array.isArray(arr))
+
 
 
 // Problem No-2
@@ -78,7 +81,6 @@
 
 
 
-
 // Problem No-16
 // let n = prompt("Enter your name : ")
 // console.log("Your name is : ", n)
@@ -116,3 +118,90 @@
 // let a = [10,20,113,24,47,125,685,15476,23512]
 // let even = check(a)
 // console.log(even)
+
+
+// Problem No-20
+// function duplicateChecker(array){
+//     const unique = []
+//     for (let i=0; i<array.length; i++){
+//         if(unique.includes(array[i])==false){
+//             unique.push(array[i])
+//         }
+//     }
+//     return unique
+// }
+// let arr = ["rezwan","mohabbat","mitul","zishan","rouf","soyeb","Rezwan", "mitul", "rouf"]
+// arr = duplicateChecker(arr)
+// console.log(arr)
+
+
+// Problem No-21
+// for(let i=0; i<=50; i++){
+//     if(i%3==0 && i%5==0){
+//         console.log("footbar")
+//     }
+//     else if(i%3==0){
+//         console.log("foo")
+//     }
+//     else if(i%5==0){
+//         console.log("bar")
+//     }
+//     else{
+//         console.log(i)
+//     }
+// }
+
+
+// Problem No-22
+// function calculateWood(chairQ, tableQ, bedQ){
+//     let chair = 3
+//     let table = 10
+//     let bed = 50
+
+//     let woodForChair = 3*chairQ
+//     let woodForTable = 10*tableQ
+//     let woodForBed = 50*bedQ
+//     let result = woodForChair+ woodForTable+ woodForBed
+//     return result
+// }
+// let neededWood = calculateWood(0,0,1)
+// console.log("Total wood required : ",neededWood)
+
+
+
+// // Problem No-23
+// function findCheppest(phones){
+//     // let minPrice = phones[0].price
+//     // for(let i=0; i<phones.length; i++){
+//     //     let phn = phones[i]
+//     //     if(phn.price<minPrice){
+//     //         minPrice=phn.price
+//     //     }
+//     // }
+//     // return minPrice
+
+//     let cheapestPhn = phones[0]
+//     for(let i=0; i<phones.length; i++){
+//         let phn = phones[i]
+//         if(phn.camera>cheapestPhn.camera){
+//             cheapestPhn=phn
+//         }
+//     }
+//     return cheapestPhn
+// }
+
+// let phones = [
+//     { name: "Nokia", camera: "20", storage: "32GB", price: 26452, color: "White" },
+//     { name: "Samsung", camera: "48", storage: "64GB", price: 54321, color: "silver" },
+//     { name: "Redmi", camera: "28", storage: "64GB", price: 16787, color: "balck" },
+//     { name: "Iphone", camera: "60", storage: "128GB", price: 156788, color: "Golden" },
+//     { name: "Oppo", camera: "48", storage: "32GB", price: 16788, color: "pink" }
+// ]
+
+// let result = findCheppest(phones)
+// console.log(result)
+
+
+
+// Problem No-24
+
