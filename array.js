@@ -204,4 +204,86 @@
 
 
 // Problem No-24
+// function totalCost(product) {
+//     let cost = 0
+//     for(let i=0; i<product.length; i++){
+//         let singleProduct = product[i]
+//         cost+=singleProduct.price
+//     }
+//     return cost
+// }
 
+// let shoppingCart = [
+//     { name: "shirt", price: 10, color: "White" },
+//     { name: "pant", price: 20, color: "black" },
+//     { name: "jacket", price: 30, color: "of-white" },
+//     { name: "shoe", price: 40, color: "brown" },
+//     { name: "belt", price: 50, color: "black" }
+// ]
+// let expense = totalCost(shoppingCart)
+// console.log(expense)
+
+
+// Problem No-25
+// function totalCost(product) {
+//     let cost = 0
+//     for(let i=0; i<product.length; i++){
+//         let singleProduct = product[i]
+//         cost+=(singleProduct.price)*singleProduct.quantity
+//     }
+//     return cost
+// }
+
+// let shoppingCart = [
+//     { name: "shirt", price: 2200, color: "White" , quantity : 5},
+//     { name: "pant", price: 3700, color: "black" , quantity : 4},
+//     { name: "jacket", price: 4000, color: "of-white" , quantity : 4},
+//     { name: "shoe", price: 1200, color: "brown" , quantity : 2},
+//     { name: "belt", price: 600, color: "black", quantity : 3}
+// ]
+// let expense = totalCost(shoppingCart)
+// console.log(expense)
+
+
+// _________________________________________________________
+// Problem No-26
+// function priceCalculate(quantity) {
+//     let price = 0
+//     const first100Rate = 100
+//     const second100Rate = 90
+//     const restRate = 70
+
+//     if (quantity <= 100) {
+//         price = quantity * first100Rate
+//     }
+//     else if (quantity <= 200) {
+//         let extra = quantity-100
+//         price = 100 * first100Rate
+//         price += extra*second100Rate
+//     }
+//     else {
+//         let extra = quantity-200
+//         let price1 = 100 * first100Rate
+//         let price2 = 90 * second100Rate
+//         let price3 = extra * restRate
+
+//         price = price1+price2+price3
+//     }
+//     return price
+// }
+
+// totalPrice = priceCalculate(210)
+// console.log(totalPrice)
+// _________________________________________________________
+
+
+// Problem No-26
+
+function add(n1, n2) {
+    if (typeof n1 !== "Number" || typeof n2 !== "Number") {
+        return "Please!! Enter a number.."
+    }
+    return n1 + n2
+}
+let result = add(10, 25)
+console.log(result)

@@ -109,3 +109,35 @@
 //     console.log(number[i])
 // }
 
+
+
+function findAddress(obj) {
+    if (typeof obj !== "object") {
+        return "Please provide a valid object";
+    } else {
+        const street = obj.street || "__";
+        const house = obj.house || "__";
+        const society = obj.society || "__";
+
+        return [street, house, society];
+    }
+}
+
+const input1 = {
+    street: 10,
+    house: "15A",
+    society: "Earth Perfect"
+};
+
+console.log(findAddress(input1));
+
+const input2 = {
+    street: 10,
+    society: "Earth Perfect"
+};
+console.log(findAddress(input2));
+
+const input3 = {
+    street: 10
+};
+console.log(findAddress(input3));
